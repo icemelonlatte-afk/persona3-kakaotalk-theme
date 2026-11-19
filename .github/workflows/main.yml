@@ -29,3 +29,4 @@ jobs:
         with:
           name: Persona3-KakaoTalk-Theme-APK
           path: build/outputs/apk/debug/*.apk
+path: "**/build/outputs/apk/**/*.apk"

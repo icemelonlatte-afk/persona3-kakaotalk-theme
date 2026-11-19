@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusBarColor">#070D1A</color>
+    <color name="actionButtonBorderColor">#3300B4FF</color>
+    <color name="actionButtonPressedColor">#00B4FF</color>
+</resources>

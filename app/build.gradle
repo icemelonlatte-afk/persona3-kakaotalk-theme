@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kakao.talk.theme.persona3'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.kakao.talk.theme.persona3"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs += ['src/main/theme']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}

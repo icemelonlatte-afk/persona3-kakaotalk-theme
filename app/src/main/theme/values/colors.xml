@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Header & Banner -->
+    <color name="theme_header_color">#00B4FF</color>
+    <color name="theme_feature_browse_tab_color">#8098B8</color>
+    <color name="theme_feature_browse_tab_focused_color">#00B4FF</color>
+    <color name="theme_header_cell_color">#070D1A</color>
+    <color name="theme_tab_bannerbadge_background_color">#00B4FF</color>
+
+    <!-- Body (List UI) -->
+    <color name="theme_section_title_color">#00B4FF</color>
+    <color name="theme_title_color">#F0F7FF</color>
+    <color name="theme_title_pressed_color">#00B4FF</color>
+    <color name="theme_paragraph_color">#A4BCD8</color>
+    <color name="theme_paragraph_pressed_color">#00B4FF</color>
+    <color name="theme_description_color">#8098B8</color>
+    <color name="theme_description_pressed_color">#00B4FF</color>
+    <color name="theme_feature_primary_color">#00B4FF</color>
+    <color name="theme_feature_primary_pressed_color">#008ED6</color>
+    <color name="theme_body_cell_color">#00070D1A</color>
+    <color name="theme_body_cell_pressed_color">#2600B4FF</color>
+    <color name="theme_body_cell_border_color">#1B2D4D</color>
+
+    <!-- Background -->
+    <color name="theme_background_color">#070D1A</color>
+    <color name="theme_chatroom_background_color">#091122</color>
+    <color name="theme_passcode_background_color">#070D1A</color>
+    <color name="theme_body_secondary_cell_color">#0E1A30</color>
+
+    <!-- Main Tab -->
+    <color name="theme_maintab_cell_color">#070D1A</color>
+
+    <!-- Chatroom -->
+    <color name="theme_chatroom_bubble_me_color">#061326</color>
+    <color name="theme_chatroom_bubble_you_color">#F0F7FF</color>
+    <color name="theme_chatroom_unread_count_color">#39E58C</color>
+    <color name="theme_chatroom_input_bar_color">#F0F7FF</color>
+    <color name="theme_chatroom_input_bar_background_color">#070D1A</color>
+    <color name="theme_chatroom_input_bar_menu_icon_color">#00B4FF</color>
+    <color name="theme_chatroom_input_bar_send_button_color">#00B4FF</color>
+    <color name="theme_chatroom_input_bar_send_icon_color">#061326</color>
+
+    <!-- Message Direct Share / Notification -->
+    <color name="theme_direct_share_color">#061326</color>
+    <color name="theme_direct_share_button_color">#061326</color>
+    <color name="theme_direct_share_background_color">#00B4FF</color>
+    <color name="theme_notification_color">#F0F7FF</color>
+    <color name="theme_notification_background_color">#E6070D1A</color>
+    <color name="theme_notification_background_pressed_color">#E612203A</color>
+
+    <!-- Passcode -->
+    <color name="theme_passcode_color">#061326</color>
+    <color name="theme_passcode_keypad_color">#F0F7FF</color>
+    <color name="theme_passcode_keypad_pressed_color">#061326</color>
+    <color name="theme_passcode_keypad_background_color">#070D1A</color>
+    <color name="theme_passcode_keypad_pressed_background_color">#00B4FF</color>
+    <color name="theme_passcode_pattern_line_color">#39E58C</color>
+</resources>

@@ -1,0 +1,31 @@
+name: Build Persona 3 KakaoTalk Theme APK (Official 26.10)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Assemble Debug APK (Signed & Ready to Install)
+        run: ./gradlew assembleDebug
+
+      - name: Upload Persona 3 KakaoTalk Theme APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Persona3-KakaoTalk-Theme-APK
+          path: build/outputs/apk/debug/*.apk
